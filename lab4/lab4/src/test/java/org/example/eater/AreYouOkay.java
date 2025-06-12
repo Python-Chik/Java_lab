@@ -45,8 +45,8 @@ public class AreYouOkay {
 
         // 4. Додаємо групи до кожної кафедри (по 2 на кафедру)
         // Групи для першої кафедри
-        Human groupHead1 = new Human("Софія", "Шолойко", "Андріївна", Gender.FEMALE);
-        Group group1 = GroupCreator.createGroup("122-21-1", groupHead1);
+        Human groupHead1 = new Human("Юнісов", "Ярослав", "Андрійович", Gender.MALE);
+        Group group1 = GroupCreator.createGroup("122-21-2", groupHead1);
         DepartmentCreator.addGroupToDepartment(department1, group1);
 
         Human groupHead2 = new Human("Дмитро", "Іваненко", "Олександрович", Gender.MALE);
