@@ -16,9 +16,9 @@ public class Run {
         Department department = DepartmentCreator.createDepartment("ПЗКС", headOfDepartment);
         FacultyCreator.addDepartmentToFaculty(faculty, department);
 
-        Human groupHead = new Human("Шолойко","Софія",  "Андріївна", Gender.FEMALE); ///створюємо нашу групу та старосту
-        Group group = GroupCreator.createGroup("122-21-2", groupHead);
-        DepartmentCreator.addGroupToDepartment(department, group);
+        Human groupHead1 = new Human("Юнісов", "Ярослав", "Андрійович", Gender.MALE);
+        Group group1 = GroupCreator.createGroup("122-21-2", groupHead1);
+        DepartmentCreator.addGroupToDepartment(department1, group1);
 
         Student student1 = StudentCreator.createStudent("Іваненко","Дмитро",  "Олександрович", Gender.MALE);  ///створюємо оболтусів(нарешті, хтось буде вчитися)
         Student student2 = StudentCreator.createStudent("Мельник","Анна",  "Ігорівна", Gender.FEMALE);
