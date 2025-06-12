@@ -35,14 +35,14 @@
           },
           "groups": [
             {
-              "name": "122-21-1",
+              "name": "122-21-2",
               "head": {
                 "type": "Human",
                 "data": {
-                  "lastName": "Шолойко",
-                  "firstName": "Софія",
-                  "middleName": "Андріївна",
-                  "gender": "FEMALE"
+                  "lastName": "Юнісов",
+                  "firstName": "Ярослав",
+                  "middleName": "Андрійович",
+                  "gender": "MALE"
                 }
               },
               "students": [
